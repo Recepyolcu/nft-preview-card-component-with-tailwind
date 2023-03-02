@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./tailwind/output.css">
+    <title>Frontend Mentor | NFT preview card component</title>
+</head>
+<body class="bg-main_bg text-soft_blue">
+
+    <div class="card p-6 bg-card_bg rounded-2xl w-1/5 flex flex-col gap-5">
+        <img class="rounded-2xl" src="images/image-equilibrium.jpg" alt="Equilibrium">
+        <h1 class="text-white text-xl font-medium">Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex flex-row justify-between">
+            <div class="flex flex-row text-cyan items-center gap-2">
+                <img src="images/icon-ethereum.svg" alt="ETH">
+                <p>0.041 ETH</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="images/icon-clock.svg" alt="clock">
+                <p>3 days left</p>
+            </div>
+        </div>
+        <div class="h-0.5 bg-line"></div>
+        <div class="flex items-center gap-3">
+            <img class="w-10 border-2 rounded-full" src="images/image-avatar.png" alt="avatar">
+            <p class="text-white"><span class="text-soft_blue">Creation of</span> Jules Wyvern</p>
+        </div>
+    </div>
+
+    <div class="attribution absolute bottom-0">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Recep Yolcu</a>
+  </div>
+</body>
+</html>
